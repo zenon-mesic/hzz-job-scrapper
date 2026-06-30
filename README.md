@@ -14,7 +14,7 @@ Distributing data from Croatian employment office website to third-parties is pr
 `git clone https://github.com/zenon-mesic/hzz_job_scrapper`
 
 ## Usage
-### Linux / macOS
+### Linux
 
 Run:
 
@@ -22,7 +22,7 @@ Run:
 ./build.sh
 ```
 
-### Windows
+### macOS / Windows
 
 Run:
 
