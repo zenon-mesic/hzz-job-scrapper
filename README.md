@@ -14,11 +14,29 @@ Distributing data from Croatian employment office website to third-parties is pr
 `git clone https://github.com/zenon-mesic/hzz_job_scrapper`
 
 ## Usage
-`python3 main.py`
+### Linux / macOS
 
-`python3 -m http.server 8000`
+Run:
 
-`open http://localhost:8000`, then navigate to `output` folder
+```
+./build.sh
+```
+
+### Windows
+
+Run:
+
+```
+python3 main.py
+```
+
+Then run:
+
+```
+python3 -m http.server 8000
+```
+
+Finally, open `http://localhost:8000/output/` in your web browser.
 
 ## Project Structure
 Folder `static` contains:
