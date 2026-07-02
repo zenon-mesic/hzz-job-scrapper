@@ -67,7 +67,7 @@ def insert_stats_and_date_into_html(db_stats: dict[str, int], html: str) -> str:
 
 def format_unlimited(row: dict[str, str | int]) -> str:
     """
-    Combines input from unlimited and unlimited_possible database rows.
+    Combines input from unlimited and unlimited_possible database columns.
 
     unlimited and unlimited_possible can be either 0 or 1. Those two database
     columns are combined into a single HTML table column with values 'Yes',
